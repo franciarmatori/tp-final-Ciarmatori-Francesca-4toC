@@ -1,0 +1,15 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', Tahoma, sans-serif; background-color: #F4F6F4; color: #2C3E35; line-height: 1.6; }
+header { background-color: #2C3E35; color: #FFFFFF; padding: 1.5rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+.logo-box { display: flex; align-items: center; gap: 10px; }
+.logo-img { width: 45px; height: 45px; border-radius: 50%; object-fit: cover; }
+nav ul { display: flex; list-style: none; gap: 15px; }
+nav a { color: #FFFFFF; text-decoration: none; font-weight: bold; padding: 8px 16px; border-radius: 5px; }
+nav a:hover, nav a.activo { background-color: #E67E22; }
+main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+h1, h2 { color: #2980B9; margin-bottom: 1rem; text-align: center; }
+.fav-container { background: #FFFFFF; padding: 2rem; border-radius: 8px; border: 1px solid #D5DBD6; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.fav-container img { width: 100%; max-height: 400px; object-fit: cover; border-radius: 6px; margin: 1.5rem 0; }
+.badge { background-color: #E67E22; color: #FFFFFF; padding: 6px 12px; border-radius: 20px; font-size: 0.9rem; font-weight: bold; }
+footer { background-color: #2C3E35; color: #FFFFFF; text-align: center; padding: 1.5rem; margin-top: 3rem; }
+footer a { color: #E67E22; text-decoration: none; }
